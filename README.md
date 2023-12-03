@@ -50,4 +50,19 @@ The dataset has 8693 rows. Unfortunately, the dataset is missing some values tha
 | Name          | 200    |
 | Transported   | 0      |
 
+Due to each column missing a relatively small amount of values, I decided to impute missing numerical values with the median and missing categorical values with the mode. With no more missing values, the dataset is ready to be explored and evaluated. 
+
+# Methods
+
+For my methods, I used: 
+- Pandas to import the dataset and built in python functions to examine its shape and summary statistics
+- NumPy commands for general data analysis
+- Matplotlib and Seaborn for building visualizations to provide insights to the data
+- SciKit-learn for imputing missing values efficiently (SimpleImputer), building the logistic regression model, and evaluating its performance
+
+Inference methods used with SciKit-learn:
+- Logistic Regression
+
+Logistic regression is a probabilistic classifer 
+
 
