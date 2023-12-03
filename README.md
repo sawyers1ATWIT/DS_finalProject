@@ -31,4 +31,23 @@ A preview of the data can be seen below.
 
 ![data screenshot](./Graph/spaceship_titanic.png)
 
+The dataset has 8693 rows. Unfortunately, the dataset is missing some values that must be dealt with, which are summarized in the table below:
+
+| **Feature**       | **# NA’s** |
+|---------------|--------|
+| PassengerID   | 0      |
+| HomePlanet    | 201    |
+| CryoSleep     | 217    |
+| Cabin         | 199    |
+| Destination   | 182    |
+| Age           | 179    |
+| VIP           | 203    |
+| RoomService   | 181    |
+| FoodCourt     | 183    |
+| ShoppingMall  | 208    |
+| Spa           | 183    |
+| VRDeck        | 188    |
+| Name          | 200    |
+| Transported   | 0      |
+
 
