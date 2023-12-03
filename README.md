@@ -6,4 +6,4 @@ The objective of this project is to use a dataset to explore creating a machine 
 1. Are any of the features correlated?
 2. Which of the features are most indicative of whether a passenger will be transported or not?
 3. Can we predict if a passenger will be transported based on the feature variables using logistic regression?
-   a. How well did the model perform?
+4. How well did the model perform?
