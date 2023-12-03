@@ -59,10 +59,16 @@ For my methods, I used:
 - NumPy commands for general data analysis
 - Matplotlib and Seaborn for building visualizations to provide insights to the data
 - SciKit-learn for imputing missing values efficiently (SimpleImputer), building the logistic regression model, and evaluating its performance
+- Statsmodels to calculate the features' VIF to test for multicollinearity
 
 Inference methods used with SciKit-learn:
 - Logistic Regression
 
-Logistic regression is a probabilistic classifer 
+Logistic regression is a probabilistic classifer that predicts the probability of an event occuring (in this case, whether a passenger will be transported or not). This probability is then transformed using the logistic function to ensure it stays between 0 and 1.
+
+I chose logistic regression due to the following reasons:
+- predicting a binary variable
+- low multicollinearity between independent variables
+- data sample size is large
 
 
