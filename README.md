@@ -23,6 +23,9 @@ The dataset has 14 columns summarized in the table below:
 | FoodCourt     | Amount the passenger was billed at the food court    |
 | ShoppingMall  | Amount the passenger was billed at the shopping mall |
 | Spa           | Amount the passenger was billed at the spa           |
-| VRDeck        | Amount the passenger was billed on the VR Deck        |
+| VRDeck        | Amount the passenger was billed on the VR Deck       |
 | Name          | First and last name of passenger                     |
 | Transported   | Indicator of whether a passenger was transported     |
+
+A preview of the data can be seen below.
+![data screenshot](./graph/spaceship_titanic.png)
