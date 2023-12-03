@@ -28,4 +28,7 @@ The dataset has 14 columns summarized in the table below:
 | Transported   | Indicator of whether a passenger was transported     |
 
 A preview of the data can be seen below.
+
 ![data screenshot](./Graph/spaceship_titanic.png)
+
+
