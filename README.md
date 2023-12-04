@@ -64,7 +64,7 @@ For my methods, I used:
 Inference methods used with SciKit-learn:
 - Logistic Regression
 
-Logistic regression is a probabilistic classifer that predicts the probability of an event occuring (in this case, whether a passenger will be transported or not). This probability is then transformed using the logistic function to ensure it stays between 0 and 1.
+Logistic regression is a probabilistic classifer that predicts the probability of an event occuring (in this case, whether a passenger will be transported or not). The output will be bounded between 0 and 1. In logistic regression, we apply a logit transformation on the odds, and beta coefficients are estimated using the maximum likelihood estimation. 
 
 Features: SimpleImputer, RFECV, RFE, cross_validate, train_test_split, accuracy_score, confusion_matrix
 
