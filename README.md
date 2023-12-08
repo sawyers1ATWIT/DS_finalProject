@@ -73,7 +73,7 @@ I chose logistic regression due to the following reasons:
 - low multicollinearity between independent variables
 - data sample size is large
 
-#Results
+# Results
 
 From the correlation heat map below, I can see that none of my variables were strongly correlated. This is ideal for a logistic regression model.
 ![correlation](./Graph/correlation_heatmap.png)
@@ -96,9 +96,9 @@ The feature coefficients can be seen below too.
 
 Overall, I found that using this model and these features, I can create a logistic regression model with an accuracy of 72% to predict if a passenger will be transported. 
 
-#Discussion
+# Discussion
 
 
 
 
-#References
+# References
