@@ -93,6 +93,10 @@ Below are the visualizations of the most important features I found. Visualizati
 ![deck](./Graph/cabin_deck_transported.png)
 ![side](./Graph/side_transported.png)
 
+I can also see from my RFECV analysis that using all 11 of my selected predictors is optimal for my model.
+
+![REFCV](./Graph/RFECV_analysis.png)
+
 My logistic regression model had an accuracy of 72%, which can be seen below as well as the confusion matrix. 
 
 ![log reg accuracy](./Graph/log_regression_accuracy_metrics.png)
@@ -106,6 +110,13 @@ The feature coefficients can be seen below too.
 Overall, I found that using this model and these features, I can create a logistic regression model with an accuracy of 72% to predict if a passenger will be transported. 
 
 # Discussion
+
+After cleaning and investigating the dataset, I was able to narrow down some of the most important predictors that can help a logistic regression model predict if a passenger will be transported or not. I was able to reach an accuracy of 72% overall. 
+
+After looking at some kaggle notebooks that used the same dataset, I think my accuracy is acceptable but admittedly on the lower end. I would be interested to learn about more ways to clean the data and investigate feature importance, so I can train and test a stronger model. 
+
+For future work, aside from looking at ways I could improve my model, I think it would be really interesting to try out other machine learning models on the dataset and see how they compare. 
+
 
 
 
