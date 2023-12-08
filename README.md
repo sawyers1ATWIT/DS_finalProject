@@ -73,4 +73,8 @@ I chose logistic regression due to the following reasons:
 - low multicollinearity between independent variables
 - data sample size is large
 
+#Results
 
+#Discussion
+
+#References
