@@ -91,7 +91,7 @@ Below are the visualizations of the most important features I found. Visualizati
 ![destination](./Graph/destination_transported.png)
 ![cryosleep](./Graph/cryosleep_transported.png)
 ![deck](./Graph/cabin_deck_transported.png)
-![side](./Graph/cabin_side_transported.png)
+![side](./Graph/side_transported.png)
 
 My logistic regression model had an accuracy of 72%, which can be seen below as well as the confusion matrix. 
 
