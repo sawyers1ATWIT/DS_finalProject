@@ -82,7 +82,16 @@ Furthermore, I can see there is very little multicollinearity among my features.
 
 ![VIF](./Graph/VIF_table.png)
 
-From the graphs I made examining different distributions and categorical variables, I decided my most important features to predict if a passenger is transported were age, home planet, destination, cabin deck, and cabin side. However, since I am new to this whole process, there are probably more thorough ways to investigate feature importance and these may not truly be the best variables to use for my model. 
+From the graphs I made examining different distributions and categorical variables, I decided my most important features to predict if a passenger is transported were age, home planet, destination, cryosleep, cabin deck, and cabin side. However, since I am new to this whole process, there are probably more thorough ways to investigate feature importance and these may not truly be the best variables to use for my model. 
+
+Below are the visualizations of the most important features I found. Visualizations of the other features are in the Graph folder.
+
+![Age](./Graph/passengers_age.png)
+![home planet](./Graph/home_planet_transported.png)
+![destination](./Graph/destination_transported.png)
+![cryosleep](./Graph/cryosleep_transported.png)
+![deck](./Graph/cabin_deck_transported.png)
+![side](./Graph/cabin_side_transported.png)
 
 My logistic regression model had an accuracy of 72%, which can be seen below as well as the confusion matrix. 
 
