@@ -79,16 +79,19 @@ From the correlation heat map below, I can see that none of my variables were st
 ![data screenshot](./Graph/correlation heatmap.png)
 
 Furthermore, I can see there is very little multicollinearity among my features.
+
 ![data screenshot](./Graph/VIF table.png)
 
 From the graphs I made examining different distributions and categorical variables, I decided my most important features to predict if a passenger is transported were age, home planet, destination, cabin deck, and cabin side. However, since I am new to this whole process, there are probably more thorough ways to investigate feature importance and these may not truly be the best variables to use for my model. 
 
 My logistic regression model had an accuracy of 72%, which can be seen below as well as the confusion matrix. 
+
 ![data screenshot](./Graph/log regression accuracy metrics.png)
 
 I can see from the confusion matrix 694 passengers were correctly predicted to not be transported and 563 passengers were correctly predicted to be transported.
 
 The feature coefficients can be seen below too.
+
 ![data screenshot](./Graph/log regression feature coefficients.png)
 
 Overall, I found that using this model and these features, I can create a logistic regression model with an accuracy of 72% to predict if a passenger will be transported. 
