@@ -118,7 +118,12 @@ After looking at some kaggle notebooks that used the same dataset, I think my ac
 For future work, aside from looking at ways I could improve my model, I think it would be really interesting to try out other machine learning models on the dataset and see how they compare. 
 
 
-
-
-
 # References
+
+[1] [Spaceship Titanic Dataset](https://www.kaggle.com/competitions/spaceship-titanic/data)
+
+[2] [Building a Logistic Regression Model in Python](https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8)
+
+[3] [Detecting Multicollinearity with VIF](https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/)
+
+[4] [Titanic: Logistic Regression Tutorial](https://www.kaggle.com/code/mnassrib/titanic-logistic-regression-with-python)
